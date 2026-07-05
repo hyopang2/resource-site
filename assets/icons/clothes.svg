@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+
+    <!-- 티셔츠 몸체 -->
+    <path d="
+        M42 22
+        L30 34
+        L18 46
+        L30 58
+        L40 50
+
+        L40 108
+
+        L88 108
+
+        L88 50
+
+        L98 58
+        L110 46
+        L98 34
+        L86 22
+
+        L74 30
+
+        Q64 36 54 30
+
+        Z" fill="#66BB6A"></path>
+
+    <!-- 목 부분 -->
+    <path d="
+        M54 30
+        Q64 40 74 30
+        " fill="none" stroke="#2E7D57" stroke-width="5" stroke-linecap="round"></path>
+
+    <!-- 아래 음영 -->
+    <path d="
+        M40 88
+        L88 88
+        L88 108
+        L40 108
+        Z" fill="#4CAF50" opacity="0.35"></path>
+
+</svg>

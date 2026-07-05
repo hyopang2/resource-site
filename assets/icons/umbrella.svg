@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+
+    <!-- 우산 손잡이 -->
+    <path d="M64 80
+           V106
+           C64 114 70 118 78 118" fill="none" stroke="#2E7D57" stroke-width="8" stroke-linecap="round"></path>
+
+    <!-- 우산 기둥 -->
+    <line x1="64" y1="28" x2="64" y2="82" stroke="#2E7D57" stroke-width="8" stroke-linecap="round"></line>
+
+    <!-- 우산 -->
+    <path d="
+        M20 54
+        Q64 12 108 54
+        Z" fill="#66BB6A"></path>
+
+    <!-- 안쪽 굴곡 -->
+    <path d="
+        M20 54
+        Q31 68 42 54
+        Q53 68 64 54
+        Q75 68 86 54
+        Q97 68 108 54" fill="#4CAF50"></path>
+
+</svg>
