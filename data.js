@@ -278,8 +278,8 @@ const resources = [
 
             {
                 type: "step",
-                title: "리어플라스틱",
-                text: "압착 공정을 진행합니다."
+                title: "압착 공정",
+                text: "입주기업 리어플라스틱에서 소재를 가공합니다."
             },
 
             {
