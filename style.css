@@ -604,7 +604,41 @@ img{
 
 }
 
+.fullscreenBtn{
 
+    position:fixed;
+
+    top:20px;
+
+    right:20px;
+
+    width:56px;
+
+    height:56px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:26px;
+
+    cursor:pointer;
+
+    z-index:9999;
+
+    box-shadow:0 6px 16px rgba(0,0,0,.25);
+
+}
+
+.fullscreenBtn:hover{
+
+    transform:scale(1.05);
+
+}
 
 /* ======================================================
    TABLET
