@@ -15,7 +15,7 @@ const timeline = document.getElementById("timeline");
 const resultCard = document.getElementById("resultCard");
 
 const backButton = document.getElementById("backButton");
-
+const fullscreenBtn = document.getElementById("fullscreenBtn");
 
 /* ======================================================
    임시 아이콘
@@ -156,6 +156,40 @@ backButton.addEventListener("click",()=>{
         behavior:"smooth"
 
     });
+
+});
+
+/* ======================================================
+   전체화면
+====================================================== */
+
+fullscreenBtn.addEventListener("click", toggleFullscreen);
+
+function toggleFullscreen() {
+
+    if (!document.fullscreenElement) {
+
+        document.documentElement.requestFullscreen();
+
+    } else {
+
+        document.exitFullscreen();
+
+    }
+
+}
+
+document.addEventListener("fullscreenchange", () => {
+
+    if (document.fullscreenElement) {
+
+        fullscreenBtn.textContent = "✕";
+
+    } else {
+
+        fullscreenBtn.textContent = "⛶";
+
+    }
 
 });
 
